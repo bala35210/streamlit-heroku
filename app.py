@@ -24,7 +24,7 @@ def user_input_features():
 df = user_input_features()
 
 st.subheader('User Input parameters')
-st.write(df.to_dict())
+st.write(df)
 
 st.subheader('Output')
 st.write(df.iloc[0]['FIRST_NUMBER'] * df.iloc[0]['SECOND_NUMBER'])
