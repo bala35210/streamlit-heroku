@@ -27,5 +27,5 @@ st.subheader('User Input parameters')
 st.write(df.to_dict())
 
 st.subheader('Output')
-st.write(data['FIRST_NUMBER']*data['SECOND_NUMBER'])
+st.write(df.iloc[0]['FIRST_NUMBER'] * df.iloc[0]['SECOND_NUMBER'])
 
